@@ -1,0 +1,550 @@
+:root {
+  color: #021526;
+  color: #6EACDA;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #021526;
+  color: #fff;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo h1 {
+  margin: 30px;
+  margin-left: auto;
+  font-size: 30px;
+}
+
+.logo h1:hover {
+  color: #6EACDA;
+  cursor: pointer;
+}
+
+.logo img {
+  width: 100px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 30px;
+  display: flex;
+  gap: 5px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 25px;
+}
+
+nav ul li a:hover {
+  background-color: #6EACDA;
+  border-radius: 4px;
+}
+
+.main {
+  height: 100vh;
+  background-color: #eddcdc;
+}
+
+.section1 {
+  width: 100%;
+  height: 500px;
+  position: absolute;
+}
+
+.Rectangle {
+  width: 1160px;
+  height: 350px;
+  background-image: url(banner.jpg);
+  background-size: cover;
+  margin: 10px;
+  margin-left: 10%;
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.7);
+  border: 2px solid #6EACDA;
+}
+
+.Rectangle h1 {
+  text-align: left;
+  font-size: 3rem;
+  color: #fff;
+  font-family: sans-serif;
+  margin-top: 5%;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.Rectangle h1 span {
+  color: #6EACDA;
+  font-weight: 200;
+}
+
+.Rectangle h1:hover {
+  color: #6EACDA;
+  cursor: pointer;
+}
+
+.Rectangle p {
+  text-align: left;
+  font-size: 1rem;
+  color: #fff;
+  font-family: sans-serif;
+  cursor: pointer;
+  font-weight: 600;
+  word-spacing: 13px;
+}
+
+.Rectangle p:hover {
+  word-spacing: 33px;
+}
+
+.form {
+  background-color: #021526;
+  padding: 30px 60px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 900px;
+  margin-left: 17%;
+  opacity: 86%;
+  margin-top: -3%;
+  border-radius: 20px;
+  color: #fff;
+  border: 2px solid #6EACDA;
+}
+
+.form select {
+  padding: 10px 0px;
+  margin: 10px;
+}
+
+.form i {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.form label {
+  font-size: 1rem;
+}
+
+.section2 {
+  width: 100%;
+  height: 800px;
+  margin-top: -10%;
+  position: absolute;
+}
+
+.Title {
+  text-align: center;
+  color: #021526;
+  font-size: 2rem;
+  word-spacing: 10px;
+  font-weight: 900;
+}
+
+.Title:hover {
+  color: #6EACDA;
+  cursor: pointer;
+}
+
+.row1,
+.row2 {
+  display: flex;
+  margin: 10px;
+}
+
+.row1 img,
+.row2 img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.Rec1,
+.Rec2,
+.Rec3,
+.Rec4,
+.Rec5,
+.Rec6 {
+  width: 600px;
+  height: 300px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid #021526;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.Title-Hotel {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #021526;
+}
+
+.paragraph-Hotel {
+  text-align: right;
+  font-weight: bold;
+  color: #6EACDA;
+}
+
+.paragraph-Hotel2 {
+  text-align: left;
+  font-weight: regular;
+  margin-top: -10%;
+}
+
+.section3 {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  display: flex;
+}
+
+.Box1 {
+  width: 600px;
+  height: 400px;
+  flex-basis: 50%;
+  display: flex;
+}
+
+.Box11,
+.Box12,
+.Box13,
+.Box14 {
+  width: 300px;
+  height: 300px;
+  background-color: #6EACDA;
+  margin: 15px;
+  border: 2px solid #6EACDA;
+  transition: 0.2s;
+}
+
+.Box11,
+.Box12,
+.Box13,
+.Box14:hover {
+  cursor: pointer;
+  transition: ease-in-out;
+}
+
+.Box2 {
+  width: 500px;
+  height: 350px;
+  background-color: #ffffff;
+  margin-left: 14%;
+  border: 2px solid #6EACDA;
+}
+
+.Box2 .Title {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.Box2 .paragraph-Hotel {
+  font-size: 3rem;
+  text-align: left;
+}
+
+.Box2,
+p {
+  color: #021526;
+  font-family: sans-serif;
+  font-weight: 900;
+}
+
+footer {
+  background-color: #021526;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+  margin-top: -16%;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-column {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.footer-column h3 {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.footer-column p,
+.footer-column ul {
+  margin: 0;
+  padding: 0;
+  color: #6EACDA;
+  list-style: none;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+  color: #ff9800;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media li {
+  margin: 0 10px;
+}
+
+.footer-bottom {
+  background-color: #6EACDA;
+  padding: 20px 0;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.RoomSection {
+  width: 100%;
+  height: 800px;
+  background-color: #eddcdc;
+  position: absolute;
+}
+
+.RoomSection .title {
+  text-align: center;
+}
+
+.rooms,
+.rooms2 {
+  width: 1300px;
+  height: 300px;
+  margin: 30px;
+  display: flex;
+}
+
+.room1,
+.room2,
+.room3 {
+  width: 400px;
+  height: 250px;
+  background-color: #fff;
+  margin: 10px;
+  border: 2px solid #6EACDA;
+  border-radius: 10px;
+}
+
+.rooms img,
+.rooms2 img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.RectangleSection {
+  width: 100%;
+  height: 600px;
+  background-color: #696363;
+  display: flex;
+}
+
+.square {
+  width: 900px;
+  height: 600px;
+  background-color: #021526;
+}
+
+.square2 {
+  width: 500px;
+  height: 600px;
+  background-color: #6EACDA;
+}
+
+.Text-Rect {
+  font-size: 2rem;
+  color: #fff;
+  margin-top: -24%;
+  margin-left: 10%;
+  position: absolute;
+}
+
+.Text-Rect2 {
+  font-size: 1rem;
+  color: #fff;
+  margin-top: -17%;
+  margin-left: 10%;
+}
+
+.btn {
+  background-color: #6EACDA;
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  margin-left: 10%;
+}
+
+.square3 {
+  width: 640px;
+  height: 300px;
+  background-color: #ff9800;
+  margin-top: -14%;
+  position: absolute;
+  margin-left: 40%;
+  border: 4px solid #ff9800;
+}
+
+.overlay {
+  width: 400px;
+  height: 250px;
+  position: absolute;
+  top: 18%;
+  border-radius: 10px;
+  cursor: pointer;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), #6EACDA);
+  opacity: 0;
+  transition: 1s;
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+
+.overlay h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
+  margin-top: 30%;
+  letter-spacing: 12px;
+}
+
+/* ........................................ Responsive Design ........................................ */
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo h1 {
+    margin: 10px 0;
+    font-size: 24px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  nav ul li {
+    margin: 5px 0;
+  }
+
+  .Rectangle {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .form {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .row1, .row2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Rec1, .Rec2, .Rec3, .Rec4, .Rec5, .Rec6 {
+    width: 90%;
+    height: auto;
+  }
+
+  .Box1 {
+    flex-direction: column;
+  }
+
+  .Box11, .Box12, .Box13, .Box14 {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .Box2 {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .rooms, .rooms2 {
+    flex-direction: column;
+  }
+
+  .room1, .room2, .room3 {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-column {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Rectangle h1 {
+    font-size: 2rem;
+  }
+
+  .Rectangle p {
+    font-size: 0.9rem;
+  }
+
+  .form {
+    padding: 20px;
+  }
+
+  .Box11, .Box12, .Box13, .Box14 {
+    height: 200px;
+  }
+
+  .footer-bottom {
+    font-size: 12px;
+  }
+  
+}
+
